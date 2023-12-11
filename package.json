@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-example",
+  "version": "1.0.0",
+  "author": "Keegan Donley",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "build": "tailwindcss build base.css -o output.css"
+  }
+}

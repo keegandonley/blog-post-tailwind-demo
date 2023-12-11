@@ -1,0 +1,20 @@
+.bg-alert-primary-background {
+  background-color: var(--color-green-mint)
+}
+
+.text-alert-primary-text {
+  color: var(--color-green-moss)
+}
+
+:root {
+  --color-green-tea-partial: 208, 241, 191;
+  --color-green-tea: rgba(var(--color-green-tea-partial), var(--opacity, 1));
+  --color-green-mint-partial: 182, 215, 185;
+  --color-green-mint: rgba(var(--color-green-mint-partial), var(--opacity, 1));
+  --color-green-vine-partial: 154, 189, 151;
+  --color-green-vine: rgba(var(--color-green-vine-partial), var(--opacity, 1));
+  --color-green-moss-partial: 100, 101, 54;
+  --color-green-moss: rgba(var(--color-green-moss-partial), var(--opacity, 1));
+  --color-green-drab-partial: 72, 61, 3;
+  --color-green-drab: rgba(var(--color-green-drab-partial), var(--opacity, 1))
+}
